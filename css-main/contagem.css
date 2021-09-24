@@ -1,0 +1,99 @@
+#sins{
+    display: flex;
+    align-content: center;
+    margin-top: -30px;
+}
+
+#sins .ali{
+    width: 100%;
+
+}
+
+#sins button{
+    background-color: rgb(121, 113, 96);
+    color: white;
+    font-size: 12px;
+    font-family:'Raleway', sans-serif;
+    font-weight: lighter;
+    width: 70%;
+    height: 60px;
+    border-radius: 0;
+    letter-spacing: 5px; 
+    text-transform: uppercase;  
+}
+
+#sins button:hover{
+    background-color: rgb(29,31,42);
+    letter-spacing: 6px; 
+    height: 70px;
+}
+
+#inscricao .card {
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -80px;
+    background-color: transparent;
+    border: 0px solid white;
+}
+
+#inscricao .card-header h4 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: violet 50px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#inscricao .card-header code{
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: violet 50px solid;
+    margin-bottom: 20px;
+}
+
+.card{
+    border: transparent;
+}
+
+
+.contato {
+    width: 48%;
+    margin-left: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+    height: 150px;
+}
+
+  
+.form input[type=submit] {
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(148, 143, 133);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 100%;
+}

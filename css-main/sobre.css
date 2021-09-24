@@ -1,0 +1,182 @@
+strong{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#sobre_sobre {
+    margin: 8vh 12vh 12vh 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#sobre_sobre .imagem{
+    width: 40%;
+    height: auto;
+    position: relative;
+}
+
+#sobre_sobre .imagem img{
+    width: 100%;
+    height: auto;
+}
+
+#sobre_sobre .texto{
+    position: relative;
+    width: 60%;
+    margin-left: 30px;
+}
+
+#sobre_sobre h1{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: violet 50px solid;
+    margin-bottom: 20px;
+}
+
+#sobre_sobre p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.btv button{
+    background-color: rgb(148, 143, 133);
+    color: white;
+    font-size: 10px;
+    font-family:'Raleway', sans-serif;
+    font-weight: lighter;
+    width: 50%;
+    height: 45px;
+    border-radius: 0;
+    letter-spacing: 4px;   
+}
+
+.btv button:hover{
+    background-color: rgb(29,31,42);
+    letter-spacing: 6px; 
+    height: 50px;
+}
+
+#review{
+    height: 350px;
+    background-color: white;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.tit h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: violet 50px solid;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+#review .carousel{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    align-content: center;
+    display: flex;
+}
+
+#review .carousel-inner{
+    display: flex;
+    align-content: center;
+}
+
+#review .carousel-item{
+    align-self: center;
+}
+
+#review .carousel-item h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1324px){
+    #sobre_sobre .texto{
+        position: relative;
+        width: 60%;
+        margin-left: 30px;
+    }
+    
+    #sobre_sobre h1{
+        color: black;
+        letter-spacing: 2px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    
+    #sobre_sobre p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 27px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    #sobre_sobre {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #sobre_sobre .imagem{
+        width:100%;
+        height: auto;
+        position: relative;
+    }
+    
+    #sobre_sobre .imagem img{
+        width: 90%;
+        height: auto;
+        align-self: center;
+    }
+    
+    #sobre_sobre .texto{
+        position: relative;
+        width: 80%;
+    }
+    
+    #sobre_sobre h1{
+        color: black;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    
+    #sobre_sobre p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 27px;
+        font-weight: lighter;
+        text-align: justify;
+    }
+
+
+
+}
