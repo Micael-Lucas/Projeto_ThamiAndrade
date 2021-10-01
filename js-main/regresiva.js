@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("October 04, 2021 19:00:00").getTime();
+var countDownDate = new Date("October 15, 2021 23:00:00").getTime();
 
 //October 04, 2021 19:00:00
 // Update the count down every 1 second

@@ -155,7 +155,7 @@
 #money .btv button:hover{
     background-color: rgb(29,31,42);
     letter-spacing: 6px; 
-    height: 50px;
+    height: 70px;
 }
 
 #money .one{
@@ -394,7 +394,23 @@ textarea {
         margin-bottom: 8vh;
     }
     
-
+    #money .btv button{
+        background-color: rgb(148, 143, 133);
+        color: white;
+        font-size: 10px;
+        font-family:'Raleway', sans-serif;
+        font-weight: lighter;
+        width: 70%;
+        height: 60px;
+        border-radius: 0;
+        letter-spacing: 4px;   
+    }
+    
+    #money .btv button:hover{
+        background-color: rgb(29,31,42);
+        letter-spacing: 6px; 
+        height: 70px;
+    }
 
 }
 

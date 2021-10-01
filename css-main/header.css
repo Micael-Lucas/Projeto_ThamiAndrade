@@ -29,6 +29,9 @@ nav{
     text-shadow: violet 50px solid;
 }
 
+.logo a{
+    text-decoration: none;
+}
 
 .header-site a{
     background-color: rgb(176, 183, 185);
