@@ -223,6 +223,17 @@
     font-weight: lighter;
 }
 
+.three ul{
+    list-style-type: none;
+}
+
+.three ul li:before{ 
+    content:"✓"; 
+}
+
+.three ul li span{
+    margin-left: 10px;
+}
 
 #money .three{
     margin-left: 40px;
